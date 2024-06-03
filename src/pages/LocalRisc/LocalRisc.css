@@ -1,0 +1,17 @@
+table {
+  border-collapse: collapse; /* Remove bordas duplicadas */
+  width: 100%; /* Ajusta a largura da tabela */
+  padding: 10px;
+}
+
+th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+
+td {
+  padding: 10px;
+  border: 3px solid #ccc;
+}

@@ -1,0 +1,29 @@
+/* Estilos base */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para cabeçalho */
+header {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+main,
+p {
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+.ministerio_saude{
+  text-align: center;
+}
+.site {
+  text-align: center;
+  color: red;
+  border:2px solid Tomato;
+}

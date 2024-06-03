@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LocalVac</title>
+  <link rel="stylesheet" href="/public/css/community.css">
+  <link rel="stylesheet" href="/src/pages/LocalVac/LocalVac.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    /* Estilos base */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Estilos para cabeçalho */
+    header {
+      background-color: #06223D;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .menu {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    .menu a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    /* Estilos para tabela */
+    .container {
+      width: 90%;
+      margin: auto;
+      overflow-x: auto; /* Adicionado para permitir rolagem horizontal em telas pequenas */
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    th,
+    td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    /* Estilos para rodapé */
+    footer {
+      background-color: #04132A ;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    /* Media queries para responsividade */
+    @media screen and (max-width: 768px) {
+      .container {
+        width: 100%;
+        overflow-x: auto; /* Manter a rolagem horizontal em telas pequenas */
+      }
+
+      table {
+        width: 100%;
+      }
+
+      .menu {
+        flex-wrap: wrap;
+      }
+
+      .menu a {
+        margin: 5px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="/public/imgs/Home/LogoGOV.png" alt="Logo do governo federal">
+    <div class="menu">
+      <a href="/src/pages/Home/index.html">Home</a>
+      <a href="/src/pages/Transparencia/transparencia.html">Transparência</a>
+      <a href="/src/pages/LGPD/LGPD.html">LGPD</a>
+      <a href="/src/pages/FAQ/faq.html">FAQ</a>
+      <a href="/src/pages/Denuncia/denuncia.php">Denuncia Anônima</a>
+      <a href="/src/pages/Servidor/sevidor.html">Fala Servidor</a>
+    </div>
+    <i class="hamburguer fa-solid fa-bars fa-2xl"></i>
+  </header>
+  
+  <margin>
+   <p>O Ministério da Saúde acordou, em conjunto com Conass e Conasems - órgãos representantes de secretarias de Saúde de estados e municípios - os critérios para a definição dos municípios que irão receber as doses, seguindo as recomendações da Câmara Técnica de Assessoramento em Imunização (CTAI) e da OMS. As vacinas serão destinadas a regiões de saúde com municípios de grande porte com alta transmissão nos últimos dez anos e população residente igual ou maior a 100 mil habitantes, levando também em conta altas taxas nos últimos meses.</p>
+
+
+
+   <h3>Confira os locais em seu estado no Site do Ministério da Saúde:</h3>
+
+    <div class="ministerio_saude">
+    <a class="site" href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue/vacinacao" target="_blank">LOCAIS DE VACINAÇÃO - MINISTÉRIO DA SAÚDE</a>
+      </div>
+
+    
+  </margin> 
+  <br>
+  <br>
+   
+  <footer>
+    <img src="/public/imgs/Home/LogoGOV.png" alt="Logo do governo federal">
+    <div class="info">
+      <div class="avl">
+        <p>Avalie nosso site</p>
+        <textarea name="avl" id="avl" cols="45" rows="6" placeholder="Escreva sua avaliação aqui..."></textarea>
+        <input type="button" value="Enviar" id="btnavl">
+      </div>
+      <div class="flexcolumn">
+        <p id="txtfooter">Redes Sociais</p>
+        <div class="midia">
+          <i class="fa-brands fa-x-twitter fa-xl"></i>
+          <i class="fa-brands fa-youtube fa-xl"></i>
+          <i class="fa-brands fa-facebook fa-xl"></i>
+          <i class="fa-brands fa-instagram fa-xl"></i>
+          <i class="fa-brands fa-soundcloud fa-xl"></i>
+          <i class="fa-brands fa-flickr fa-xl"></i>
+          <i class="fa-brands fa-linkedin fa-xl"></i>
+        </div>
+      </div>
+    </div>
+    <div class="flexrow" id="final">
+      <p><i class="fa-regular fa-copyright fa-2xs"></i> Todos os direitos reservados</p>
+    </div>
+  </footer>
+</body>
+
+</html>

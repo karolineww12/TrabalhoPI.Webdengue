@@ -1,0 +1,96 @@
+/* Estilos base */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e0f7fa; /* cor de fundo similar à imagem */
+}
+
+/* Estilos para cabeçalho */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilos para o menu */
+.menu {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Estilos para o conteúdo principal */
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff; /* fundo branco para o conteúdo principal */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* sombra para destaque */
+  text-align: center; /* centralizar texto */
+}
+
+/* Estilos para o gráfico */
+.chart-container {
+  width: 100%;
+  margin: auto;
+}
+
+.chart {
+  width: 100%;
+  height: auto;
+}
+
+/* Estilos para rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Estilos para formulário de feedback */
+.feedback {
+  margin-top: 20px;
+}
+
+.feedback input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.feedback input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Media queries para responsividade */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+  }
+
+  .menu a {
+    margin: 5px;
+  }
+
+  .feedback input[type="text"] {
+    width: 100%;
+  }
+}
